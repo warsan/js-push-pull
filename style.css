@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap');
+body {
+  font-family: "Signika Negative", sans-serif; 
+  font-weight: 300;
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 5px 15px;
+  font-size: 18px;
+}
+h1, h2, h3 {
+  margin: 1px; /*font-family: Lato;*/
+  color: rgba(100, 200, 219, 0.9);
+  background-color: rgba(200, 200, 200, .2);
+}
+p {
+  font-weight: 300;
+  max-width: 1000px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 1px;
+}
+.joint, #wheelPath {
+  stroke: black;
+  fill: none;
+  vector-effect: non-scaling-stroke; 
+}
+
+#wheelPath {
+  stroke: red;
+  stroke-width: 4px;
+  opacity: 0.4;
+  stroke-dasharray: 12px 12px;
+}
+a {
+  color: #88ce02;
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: underline;
+}
